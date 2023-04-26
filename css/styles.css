@@ -127,6 +127,7 @@ img{
 }
 
 .hero {
+  background-image: url(../images/people-office\ 1\ \(3\).png);
   padding-top: 188px;
   padding-bottom: 188px;
   background-color: var(--hero-color);
