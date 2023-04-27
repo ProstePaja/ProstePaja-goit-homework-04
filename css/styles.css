@@ -127,20 +127,22 @@ img{
 }
 
 .hero {
+  background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1\ \(3\).png);
+  height: 600px;
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+
   padding-top: 188px;
   padding-bottom: 188px;
   background-color: var(--hero-color);
   text-align: center;
 }
 
-.hero-image{
-  height: 600px;
-  background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1\ \(3\).png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  
-}
+
 
 .main-title {
   margin-left: auto;
