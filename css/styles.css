@@ -274,11 +274,12 @@ img{
 
 .social-list-item{
   justify-content: center;
+  display: flex;
 }
 
 .social-list{
   display: flex;
-  gap: 24px;
+  /*gap: 24px;*/
 }
 
 .social-list-link{
@@ -290,6 +291,8 @@ img{
   border-radius: 50%;
   background-color:var(--portfolio-color);
 }
+
+
 
 .section-two {
   padding-top: 0;
