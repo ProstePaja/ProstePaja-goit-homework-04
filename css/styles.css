@@ -496,7 +496,6 @@ img {
   border-radius: 50%;
   background-color: var(--portfolio-color);
   margin-bottom: 32px;
-  height: 100%;
 }
 
 .social-list-link-footer:hover,
