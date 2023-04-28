@@ -445,14 +445,19 @@ img {
 .footer-div{
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
+  /*margin-right: 120px;*/
   
 }
 
+.footer-div-div{
+  display:block;
+  margin-right: 120px;
+}
+
 .second-footer-div{
-  display: flex;
+  display: block;
   justify-content: center;
-  gap: 120px;
+  /*gap: 120px;*/
 }
 
 .complementary-text-footer-second{
@@ -466,6 +471,31 @@ img {
   letter-spacing: 0.02em;
   color: var(--background-color);
   margin-bottom: 16px;
+}
+
+.social-list-footer{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.social-list-item-footer{
+      display: block;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.social-list-link-footer{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--portfolio-color);
+  margin-bottom: 32px;
+  height: 100%;
 }
 
 /*portfolio upravy*/
