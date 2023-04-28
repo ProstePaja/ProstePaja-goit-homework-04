@@ -22,6 +22,7 @@ img {
   --portfolio-backroud: #f4f4fd;
   --ramecek-tlacitka: #e7e9fc;
   --pro-tlacitka-4-sekce: #404bbf;
+  --sekce-pet:#8e8f99;
 }
 
 .body {
@@ -289,9 +290,11 @@ img {
   border-radius: 50%;
   background-color: var(--portfolio-color);
   margin-bottom: 32px;
+  height: 100%;
 }
 
-.social-list-item:hover .social-list-item:focus {
+.social-list-link:hover, 
+.social-list-link:focus {
   background-color: var(--pro-tlacitka-4-sekce);
 }
 
@@ -378,11 +381,22 @@ img {
   padding-bottom: 120px;
 }
 
-.customer-list {
+.customers-list-ul{
   display: flex;
   justify-content: center;
   gap: 24px;
 }
+
+.customer-list {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+
 
 .customers-list-link {
   display: flex;
@@ -392,6 +406,18 @@ img {
   background-color: var(--background-color);
   border-radius: 4px;
   border: 1px solid #8e8f99;
+  color:var(--sekce-pet);
+  width: 168px;
+  height: 88px;
+}
+.customers-list-link:hover,
+.customers-list-link:focus{
+  border-color: var(--pro-tlacitka-4-sekce);
+  color: var(--pro-tlacitka-4-sekce);
+}
+
+.customers-list-icon{
+  fill: currentColor;
 }
 
 .footer {
