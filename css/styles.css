@@ -275,6 +275,7 @@ img{
 
 .social-list{
   display: flex;
+  justify-content: center;
   gap: 24px;
 }
 
@@ -297,8 +298,8 @@ img{
 
 }
 
-.social-list-link:hover,
-.social-list-link:focus{
+.social-list-item:hover,
+.social-list-item:focus{
   background-color:var(--pro-tlacitka-4-sekce)
 }
 
