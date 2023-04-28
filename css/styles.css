@@ -41,6 +41,7 @@ img {
 
 .main-header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .main-navigation {
@@ -487,11 +488,11 @@ img {
 }
 
 .social-list-link-footer{
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
   border-radius: 50%;
   background-color: var(--portfolio-color);
   margin-bottom: 32px;
@@ -566,11 +567,21 @@ img {
   color: var(--background-color);
   background-color: #404bbf;
   border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button-title-port-all-primary:hover,
 .button-title-port-all-primary:focus {
   color: var(--background-color);
+}
+
+.portfolio-link{
+  display: block;
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus{
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .second-list {
@@ -582,6 +593,7 @@ img {
 
 .second-list-list {
   width: calc((100% - 48px) / 3);
+
 }
 
 .stin {
