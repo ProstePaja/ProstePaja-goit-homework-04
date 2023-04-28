@@ -298,7 +298,7 @@ img{
 
 }
 
-.social-list-item:hover,
+.social-list-item:hover
 .social-list-item:focus{
   background-color:var(--pro-tlacitka-4-sekce)
 }
