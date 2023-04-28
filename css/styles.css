@@ -272,14 +272,14 @@ img {
 .social-list {
   display: flex;
   justify-content: center;
-  /*gap: 24px;*/
+  gap: 24px;
 }
 
 .social-list-item {
   display: block;
   justify-content: center;
   align-items: center;
-  /*gap: 24px;*/
+  gap: 24px;
   height: 100%;
   width: 100%;
 }
