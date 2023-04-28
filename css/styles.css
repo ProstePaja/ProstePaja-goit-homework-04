@@ -480,14 +480,14 @@ img {
 }
 
 .social-list-item-footer{
-      display: block;
+  display: block;
   justify-content: center;
   align-items: center;
   gap: 16px;
 }
 
 .social-list-link-footer{
-    display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 40px;
@@ -496,6 +496,15 @@ img {
   background-color: var(--portfolio-color);
   margin-bottom: 32px;
   height: 100%;
+}
+
+.social-list-link-footer:hover,
+.social-list-link-footer:focus{
+  background-color: #31d0aa;
+}
+
+.social-list-icon-footer{
+  fill: var(--portfolio-backroud);
 }
 
 /*portfolio upravy*/
