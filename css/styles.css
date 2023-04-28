@@ -21,6 +21,7 @@ img{
   --portfolio-color: #4d5ae5;
   --portfolio-backroud: #f4f4fd;
   --ramecek-tlacitka: #e7e9fc;
+  --pro-tlacitka-4-sekce:#404bbf;
 }
 
 .body {
@@ -272,14 +273,16 @@ img{
   color: var(--adres-colr);
 }
 
-.social-list-item{
-  justify-content: center;
-  display: flex;
-}
-
 .social-list{
   display: flex;
-  /*gap: 24px;*/
+  gap: 24px;
+}
+
+.social-list-item{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
 }
 
 .social-list-link{
@@ -288,8 +291,19 @@ img{
   align-items: center;
   width: 40px;
   height: 40px;
-  border-radius: 50%;
+  border-radius:50%;
   background-color:var(--portfolio-color);
+  margin-bottom: 32px;
+
+}
+
+.social-list-link:hover,
+.social-list-link:focus{
+  background-color:var(--pro-tlacitka-4-sekce)
+}
+
+.social-list-icon{
+  fill:var(--portfolio-backroud)
 }
 
 
