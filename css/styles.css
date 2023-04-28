@@ -442,6 +442,32 @@ img {
   display: inline-block;
 }
 
+.footer-div{
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
+  
+}
+
+.second-footer-div{
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+}
+
+.complementary-text-footer-second{
+    margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--background-color);
+  margin-bottom: 16px;
+}
+
 /*portfolio upravy*/
 .portfolio:hover,
 .portfolio:focus {
