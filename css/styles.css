@@ -411,16 +411,17 @@ img {
   color:var(--sekce-pet);
   width: 168px;
   height: 88px;
+
+  fill:rgba(142, 143, 153, 1);
 }
 .customers-list-link:hover,
 .customers-list-link:focus{
-  border-color: var(--pro-tlacitka-4-sekce);
+  fill: var(--pro-tlacitka-4-sekce);
+   border-color: var(--pro-tlacitka-4-sekce);
   color: var(--pro-tlacitka-4-sekce);
 }
 
-.customers-list-icon{
-  fill: currentColor;
-}
+
 
 .footer {
   padding-top: 100px;
